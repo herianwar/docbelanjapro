@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<title>Kebijakan Privasi — Belanja Pro</title>
+<meta name="description" content="Kebijakan privasi aplikasi Belanja Pro — Smart Shopping List. Data offline-first, transparansi iklan, kontrol consent.">
+<style>
+  :root {
+    --primary: #10B981;
+    --primary-dark: #047857;
+    --gradient-end: #0EA5E9;
+    --bg: #FAFAF9;
+    --surface: #FFFFFF;
+    --border: #E7E5E4;
+    --text: #0C0A09;
+    --text-muted: #57534E;
+    --text-soft: #A8A29E;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0A0A0A;
+      --surface: #171717;
+      --border: #404040;
+      --text: #FAFAF9;
+      --text-muted: #A8A29E;
+      --text-soft: #57534E;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Plus Jakarta Sans",
+                 Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  .container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  header.brand {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--gradient-end) 100%);
+    color: #fff;
+    padding: 56px 24px 48px;
+    text-align: center;
+  }
+  header.brand .logo {
+    width: 72px; height: 72px;
+    margin: 0 auto 16px;
+    background: rgba(255,255,255,0.18);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 36px;
+  }
+  header.brand h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+  header.brand p {
+    margin: 8px 0 0;
+    opacity: 0.9;
+    font-size: 15px;
+  }
+  main { padding: 40px 0 80px; }
+  .effective-date {
+    font-size: 14px;
+    color: var(--text-soft);
+    text-align: center;
+    margin: -16px 0 32px;
+    font-style: italic;
+  }
+  section.lang-block {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 28px 28px 8px;
+    margin-bottom: 24px;
+  }
+  section.lang-block h2 {
+    margin: 0 0 8px;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    color: var(--primary-dark);
+  }
+  @media (prefers-color-scheme: dark) {
+    section.lang-block h2 { color: var(--primary); }
+  }
+  section.lang-block .intro {
+    color: var(--text-muted);
+    margin: 0 0 24px;
+  }
+  h3 {
+    margin: 28px 0 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text);
+  }
+  h3 .num {
+    display: inline-flex;
+    align-items: center; justify-content: center;
+    width: 24px; height: 24px;
+    background: linear-gradient(135deg, var(--primary), var(--gradient-end));
+    color: #fff;
+    border-radius: 6px;
+    font-size: 12px; font-weight: 700;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  p, ul { color: var(--text-muted); }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  code {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 13px;
+    background: rgba(16, 185, 129, 0.1);
+    color: var(--primary-dark);
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+  @media (prefers-color-scheme: dark) {
+    code { color: var(--primary); }
+  }
+  a {
+    color: var(--primary-dark);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(16, 185, 129, 0.4);
+  }
+  a:hover { border-bottom-color: var(--primary-dark); }
+  @media (prefers-color-scheme: dark) {
+    a { color: var(--primary); border-bottom-color: rgba(16, 185, 129, 0.5); }
+  }
+  hr.separator {
+    border: 0;
+    height: 1px;
+    background: var(--border);
+    margin: 40px 0;
+  }
+  footer {
+    text-align: center;
+    color: var(--text-soft);
+    font-size: 13px;
+    padding: 24px 0;
+    border-top: 1px solid var(--border);
+    margin-top: 48px;
+  }
+  footer a { color: var(--text-soft); border-bottom: none; }
+  footer a:hover { color: var(--primary-dark); }
+  @media (max-width: 480px) {
+    header.brand { padding: 40px 20px 36px; }
+    header.brand h1 { font-size: 26px; }
+    section.lang-block { padding: 22px 20px 4px; border-radius: 12px; }
+    .container { padding: 0 16px; }
+  }
+  @media print {
+    header.brand { background: none; color: #000; }
+    section.lang-block { border: none; padding: 0; }
+    body { background: #fff; }
+  }
+</style>
+</head>
+<body>
+
+<header class="brand">
+  <div class="logo" aria-hidden="true">🛒</div>
+  <h1>Kebijakan Privasi</h1>
+  <p>Belanja Pro — Smart Shopping List</p>
+</header>
+
+<main>
+<div class="container">
+
+<p class="effective-date">Efektif / Effective: 23 April 2026</p>
+
+<!-- ============== INDONESIA ============== -->
+<section class="lang-block" lang="id">
+  <h2>Bahasa Indonesia</h2>
+  <p class="intro"><strong>Belanja Pro</strong> ("aplikasi", "kami") berkomitmen menjaga privasi Anda. Dokumen ini menjelaskan data yang kami kumpulkan dan bagaimana kami menggunakannya.</p>
+
+  <h3><span class="num">1</span>Data yang disimpan di perangkat</h3>
+  <p>Semua daftar belanja, item, riwayat, dan preferensi Anda disimpan <strong>hanya di perangkat</strong> menggunakan SQLite dan SharedPreferences. Kami tidak mengirim data ini ke server.</p>
+
+  <h3><span class="num">2</span>Iklan (AdMob)</h3>
+  <p>Aplikasi menampilkan iklan melalui Google AdMob. AdMob dapat mengumpulkan:</p>
+  <ul>
+    <li>Ad ID perangkat (dapat direset/dihapus via Setelan sistem Android).</li>
+    <li>Data diagnostik (crash, performa).</li>
+    <li>Perkiraan lokasi berbasis IP (untuk iklan relevan).</li>
+  </ul>
+  <p>Kami menerapkan <strong>Google User Messaging Platform (UMP)</strong> untuk meminta persetujuan personalisasi iklan bagi pengguna EEA/UK/Swiss. Anda dapat mengubah preferensi lewat <em>Pengaturan → Privasi → "Kelola consent iklan"</em>.</p>
+
+  <h3><span class="num">3</span>Izin yang digunakan</h3>
+  <ul>
+    <li><code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code> — untuk memuat iklan.</li>
+    <li><code>AD_ID</code> — untuk iklan personalisasi (opsional, bergantung consent).</li>
+    <li><code>POST_NOTIFICATIONS</code>, <code>SCHEDULE_EXACT_ALARM</code> — untuk pengingat belanja lokal (tidak diakses pihak ketiga).</li>
+  </ul>
+
+  <h3><span class="num">4</span>Anak-anak</h3>
+  <p>Aplikasi ini tidak dirancang untuk pengguna di bawah 13 tahun dan tidak dengan sengaja mengumpulkan data dari anak-anak.</p>
+
+  <h3><span class="num">5</span>Perubahan kebijakan</h3>
+  <p>Kebijakan ini dapat diperbarui sewaktu-waktu. Perubahan material akan diinformasikan melalui halaman Play Store.</p>
+
+  <h3><span class="num">6</span>Kontak</h3>
+  <p>Pertanyaan: <a href="mailto:support@belanjapro.app">support@belanjapro.app</a>.</p>
+</section>
+
+<hr class="separator" aria-hidden="true">
+
+<!-- ============== ENGLISH ============== -->
+<section class="lang-block" lang="en">
+  <h2>English</h2>
+  <p class="intro"><strong>Belanja Pro</strong> ("the app", "we") respects your privacy. This policy describes what data we collect and how we use it.</p>
+
+  <h3><span class="num">1</span>On-device data</h3>
+  <p>All shopping lists, items, history, and preferences are stored <strong>locally</strong> via SQLite and SharedPreferences. We do not transmit this data to our servers.</p>
+
+  <h3><span class="num">2</span>Advertising (AdMob)</h3>
+  <p>The app shows ads via Google AdMob, which may collect:</p>
+  <ul>
+    <li>Device Ad ID (resettable via Android system settings).</li>
+    <li>Diagnostic and performance data.</li>
+    <li>Coarse IP-based location for ad relevance.</li>
+  </ul>
+  <p>We use the <strong>Google User Messaging Platform (UMP)</strong> to request ads personalization consent for users in the EEA, UK, and Switzerland. You can change preferences any time in <em>Settings → Privacy → "Manage ad consent"</em>.</p>
+
+  <h3><span class="num">3</span>Permissions</h3>
+  <ul>
+    <li><code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code> — to load ads.</li>
+    <li><code>AD_ID</code> — optional, subject to consent.</li>
+    <li><code>POST_NOTIFICATIONS</code>, <code>SCHEDULE_EXACT_ALARM</code> — for local reminders only.</li>
+  </ul>
+
+  <h3><span class="num">4</span>Children</h3>
+  <p>The app is not directed to users under 13 and does not knowingly collect data from children.</p>
+
+  <h3><span class="num">5</span>Changes</h3>
+  <p>We may update this policy. Material changes will be reflected on the Play Store listing.</p>
+
+  <h3><span class="num">6</span>Contact</h3>
+  <p><a href="mailto:support@belanjapro.app">support@belanjapro.app</a>.</p>
+</section>
+
+<footer>
+  <p>&copy; 2026 Belanja Pro · <a href="terms.html">Syarat &amp; Ketentuan / Terms</a></p>
+</footer>
+
+</div>
+</main>
+
+</body>
+</html>

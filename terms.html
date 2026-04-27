@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<title>Syarat &amp; Ketentuan — Belanja Pro</title>
+<meta name="description" content="Syarat dan ketentuan penggunaan aplikasi Belanja Pro — Smart Shopping List.">
+<style>
+  :root {
+    --primary: #10B981;
+    --primary-dark: #047857;
+    --gradient-end: #0EA5E9;
+    --bg: #FAFAF9;
+    --surface: #FFFFFF;
+    --border: #E7E5E4;
+    --text: #0C0A09;
+    --text-muted: #57534E;
+    --text-soft: #A8A29E;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0A0A0A;
+      --surface: #171717;
+      --border: #404040;
+      --text: #FAFAF9;
+      --text-muted: #A8A29E;
+      --text-soft: #57534E;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Plus Jakarta Sans",
+                 Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  .container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  header.brand {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--gradient-end) 100%);
+    color: #fff;
+    padding: 56px 24px 48px;
+    text-align: center;
+  }
+  header.brand .logo {
+    width: 72px; height: 72px;
+    margin: 0 auto 16px;
+    background: rgba(255,255,255,0.18);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 36px;
+  }
+  header.brand h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+  header.brand p {
+    margin: 8px 0 0;
+    opacity: 0.9;
+    font-size: 15px;
+  }
+  main { padding: 40px 0 80px; }
+  .effective-date {
+    font-size: 14px;
+    color: var(--text-soft);
+    text-align: center;
+    margin: -16px 0 32px;
+    font-style: italic;
+  }
+  section.lang-block {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 28px 28px 8px;
+    margin-bottom: 24px;
+  }
+  section.lang-block h2 {
+    margin: 0 0 8px;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    color: var(--primary-dark);
+  }
+  @media (prefers-color-scheme: dark) {
+    section.lang-block h2 { color: var(--primary); }
+  }
+  section.lang-block .intro {
+    color: var(--text-muted);
+    margin: 0 0 24px;
+  }
+  h3 {
+    margin: 28px 0 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text);
+  }
+  h3 .num {
+    display: inline-flex;
+    align-items: center; justify-content: center;
+    min-width: 24px; height: 24px;
+    padding: 0 6px;
+    background: linear-gradient(135deg, var(--primary), var(--gradient-end));
+    color: #fff;
+    border-radius: 6px;
+    font-size: 12px; font-weight: 700;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  p, ul { color: var(--text-muted); }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  code {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 13px;
+    background: rgba(16, 185, 129, 0.1);
+    color: var(--primary-dark);
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+  @media (prefers-color-scheme: dark) {
+    code { color: var(--primary); }
+  }
+  a {
+    color: var(--primary-dark);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(16, 185, 129, 0.4);
+  }
+  a:hover { border-bottom-color: var(--primary-dark); }
+  @media (prefers-color-scheme: dark) {
+    a { color: var(--primary); border-bottom-color: rgba(16, 185, 129, 0.5); }
+  }
+  hr.separator {
+    border: 0;
+    height: 1px;
+    background: var(--border);
+    margin: 40px 0;
+  }
+  .note {
+    background: rgba(245, 158, 11, 0.08);
+    border-left: 3px solid #F59E0B;
+    padding: 12px 16px;
+    border-radius: 6px;
+    margin: 16px 0;
+    font-size: 14px;
+    color: var(--text-muted);
+  }
+  footer {
+    text-align: center;
+    color: var(--text-soft);
+    font-size: 13px;
+    padding: 24px 0;
+    border-top: 1px solid var(--border);
+    margin-top: 48px;
+  }
+  footer a { color: var(--text-soft); border-bottom: none; }
+  footer a:hover { color: var(--primary-dark); }
+  @media (max-width: 480px) {
+    header.brand { padding: 40px 20px 36px; }
+    header.brand h1 { font-size: 26px; }
+    section.lang-block { padding: 22px 20px 4px; border-radius: 12px; }
+    .container { padding: 0 16px; }
+  }
+  @media print {
+    header.brand { background: none; color: #000; }
+    section.lang-block { border: none; padding: 0; }
+    body { background: #fff; }
+  }
+</style>
+</head>
+<body>
+
+<header class="brand">
+  <div class="logo" aria-hidden="true">📜</div>
+  <h1>Syarat &amp; Ketentuan</h1>
+  <p>Belanja Pro — Smart Shopping List</p>
+</header>
+
+<main>
+<div class="container">
+
+<p class="effective-date">Efektif / Effective: 27 April 2026</p>
+
+<!-- ============== INDONESIA ============== -->
+<section class="lang-block" lang="id">
+  <h2>Bahasa Indonesia</h2>
+  <p class="intro">Dengan mengunduh, memasang, atau menggunakan aplikasi <strong>Belanja Pro</strong> ("aplikasi", "kami"), Anda setuju untuk terikat oleh syarat &amp; ketentuan berikut. Jika Anda tidak setuju, mohon untuk tidak menggunakan aplikasi ini.</p>
+
+  <h3><span class="num">1</span>Penerimaan Syarat</h3>
+  <p>Penggunaan aplikasi merupakan persetujuan Anda terhadap dokumen ini, beserta <a href="privacy.html">Kebijakan Privasi</a> kami. Dokumen-dokumen ini dapat diperbarui dari waktu ke waktu; perubahan material akan diumumkan via halaman Play Store atau notifikasi dalam aplikasi.</p>
+
+  <h3><span class="num">2</span>Lisensi Penggunaan</h3>
+  <p>Kami memberikan lisensi terbatas, non-eksklusif, dan tidak dapat dialihkan untuk menggunakan Belanja Pro pada perangkat Android pribadi Anda untuk keperluan non-komersial. Anda <strong>tidak diperbolehkan</strong>:</p>
+  <ul>
+    <li>Memodifikasi, mendekompilasi, melakukan reverse engineering, atau membuat karya turunan dari aplikasi;</li>
+    <li>Menyalin, menyewakan, atau menjual ulang aplikasi atau bagian darinya;</li>
+    <li>Menggunakan aplikasi untuk aktivitas yang melanggar hukum yang berlaku.</li>
+  </ul>
+
+  <h3><span class="num">3</span>Konten Pengguna</h3>
+  <p>Semua daftar belanja, item, dan catatan yang Anda masukkan tetap menjadi milik Anda. Data tersebut disimpan secara <strong>lokal</strong> di perangkat Anda — kami tidak mengakses, mencadangkan, atau membagikannya. Anda bertanggung jawab penuh atas pencadangan dan pemulihan data tersebut.</p>
+
+  <h3><span class="num">4</span>Iklan &amp; Layanan Pihak Ketiga</h3>
+  <p>Aplikasi menampilkan iklan dari Google AdMob. Penggunaan AdMob tunduk pada <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">kebijakan iklan Google</a>. Kami menerapkan Google UMP untuk meminta consent personalisasi sesuai persyaratan regulasi yang berlaku. Detail terdapat di <a href="privacy.html">Kebijakan Privasi</a>.</p>
+
+  <h3><span class="num">5</span>Penafian Garansi</h3>
+  <p>Aplikasi disediakan <strong>"sebagaimana adanya" (AS IS)</strong> tanpa jaminan apa pun, baik tersurat maupun tersirat. Kami tidak menjamin bahwa aplikasi bebas dari kesalahan, akan selalu tersedia, atau akan memenuhi kebutuhan spesifik Anda. Fitur seperti pengingat lokal bergantung pada konfigurasi sistem Android dan tidak dijamin berfungsi pada semua perangkat.</p>
+
+  <h3><span class="num">6</span>Batasan Tanggung Jawab</h3>
+  <p>Sejauh diizinkan oleh hukum, kami tidak bertanggung jawab atas kerugian tidak langsung, insidental, atau konsekuensial yang timbul dari penggunaan aplikasi — termasuk namun tidak terbatas pada kehilangan data, kelewatan jadwal belanja, atau pengeluaran yang melebihi anggaran.</p>
+
+  <h3><span class="num">7</span>Penghentian</h3>
+  <p>Anda dapat berhenti menggunakan aplikasi kapan saja dengan menghapus instalasi. Kami berhak menghentikan distribusi atau dukungan terhadap aplikasi sewaktu-waktu, dengan atau tanpa pemberitahuan.</p>
+
+  <h3><span class="num">8</span>Pembaruan Syarat</h3>
+  <p>Kami dapat memperbarui Syarat &amp; Ketentuan ini sewaktu-waktu. Penggunaan berkelanjutan setelah pembaruan dianggap sebagai persetujuan terhadap versi baru.</p>
+
+  <h3><span class="num">9</span>Hukum yang Berlaku</h3>
+  <p>Syarat &amp; Ketentuan ini diatur dan ditafsirkan menurut hukum Republik Indonesia. Setiap perselisihan akan diselesaikan secara musyawarah; jika tidak tercapai, sengketa akan diselesaikan melalui pengadilan yang berwenang di Indonesia.</p>
+
+  <h3><span class="num">10</span>Kontak</h3>
+  <p>Pertanyaan tentang syarat ini: <a href="mailto:support@belanjapro.app">support@belanjapro.app</a>.</p>
+</section>
+
+<hr class="separator" aria-hidden="true">
+
+<!-- ============== ENGLISH ============== -->
+<section class="lang-block" lang="en">
+  <h2>English</h2>
+  <p class="intro">By downloading, installing, or using the <strong>Belanja Pro</strong> app ("the app", "we"), you agree to be bound by the following terms and conditions. If you do not agree, please do not use the app.</p>
+
+  <h3><span class="num">1</span>Acceptance of Terms</h3>
+  <p>Use of the app constitutes your agreement to this document and to our <a href="privacy.html">Privacy Policy</a>. These documents may be updated from time to time; material changes will be announced through the Play Store listing or in-app notification.</p>
+
+  <h3><span class="num">2</span>License</h3>
+  <p>We grant you a limited, non-exclusive, non-transferable license to use Belanja Pro on your personal Android device for non-commercial purposes. You <strong>may not</strong>:</p>
+  <ul>
+    <li>Modify, decompile, reverse-engineer, or create derivative works of the app;</li>
+    <li>Copy, rent, or resell the app or any part of it;</li>
+    <li>Use the app for any unlawful activity under applicable law.</li>
+  </ul>
+
+  <h3><span class="num">3</span>User Content</h3>
+  <p>All shopping lists, items, and notes you enter remain yours. They are stored <strong>locally</strong> on your device — we do not access, back up, or share them. You are solely responsible for backing up and restoring this data.</p>
+
+  <h3><span class="num">4</span>Ads &amp; Third-Party Services</h3>
+  <p>The app displays ads via Google AdMob. AdMob usage is governed by <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google's advertising policies</a>. We use the Google UMP to request personalization consent where required by applicable regulations. Details are available in our <a href="privacy.html">Privacy Policy</a>.</p>
+
+  <h3><span class="num">5</span>Disclaimer of Warranties</h3>
+  <p>The app is provided <strong>"AS IS"</strong> without warranty of any kind, express or implied. We do not warrant that the app will be error-free, always available, or fit for any particular purpose. Features such as local reminders depend on Android system configuration and are not guaranteed on all devices.</p>
+
+  <h3><span class="num">6</span>Limitation of Liability</h3>
+  <p>To the fullest extent permitted by law, we shall not be liable for any indirect, incidental, or consequential damages arising from your use of the app — including but not limited to data loss, missed shopping schedules, or budget overruns.</p>
+
+  <h3><span class="num">7</span>Termination</h3>
+  <p>You may stop using the app at any time by uninstalling it. We reserve the right to discontinue distribution or support of the app at any time, with or without notice.</p>
+
+  <h3><span class="num">8</span>Changes to Terms</h3>
+  <p>We may update these Terms at any time. Continued use after an update constitutes acceptance of the revised version.</p>
+
+  <h3><span class="num">9</span>Governing Law</h3>
+  <p>These Terms are governed by and construed under the laws of the Republic of Indonesia. Any dispute shall first be resolved amicably; failing that, disputes shall be settled by competent courts in Indonesia.</p>
+
+  <h3><span class="num">10</span>Contact</h3>
+  <p>Questions about these terms: <a href="mailto:support@belanjapro.app">support@belanjapro.app</a>.</p>
+</section>
+
+<footer>
+  <p>&copy; 2026 Belanja Pro · <a href="privacy.html">Kebijakan Privasi / Privacy Policy</a></p>
+</footer>
+
+</div>
+</main>
+
+</body>
+</html>
